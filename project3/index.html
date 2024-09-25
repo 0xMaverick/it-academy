@@ -29,7 +29,7 @@
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">Blog</a></li>
-                        <li class="contact-btn"><a href="#">Contact us</a></li>
+                        <li class="contact-btn wow animate__animated animate__swing" data-wow-iteration="2"><a href="#">Contact us</a></li>
                     </ul>
                 </nav>
             </header>
@@ -304,10 +304,10 @@
                     <p>We are always open to discuss your project and improve your online presence.</p>
                 </div>
                 <div class="right-content">
-                    <h3 class="wow animate__animated animate__bounce">Lets Talk!</h3>
+                    <h3 class="wow animate__animated animate__bounce" data-wow-iteration="3" data-wow-offset="100">Lets Talk!</h3>
                     <p>We are always open to discuss your project, improve your online presence and help with your UX/UI
                         design challenges.</p>
-                    <ul class="wow animate__animated animate__backInRight">
+                    <ul class="wow animate__animated animate__backInRight" data-wow-delay="1s">
                         <li>
                             <a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
                         </li>
@@ -353,7 +353,17 @@
 
     <script src="js/wow.min.js"></script>
               <script>
-              new WOW().init();
+            //   new WOW().init();
+            wow = new WOW(
+                      {
+                      boxClass:     'wow',
+                      animateClass: 'animated',
+                      offset:       0,
+                      mobile:       false,
+                      live:         true
+                    }
+                    )
+                    wow.init();
               </script>
 
 
