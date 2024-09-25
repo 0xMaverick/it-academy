@@ -1,0 +1,247 @@
+.wrapper {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+/*Section 1*/
+
+.container1 .logo span {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 99%;
+    color: #101010;
+    text-transform: uppercase;
+}
+
+.container1 .logo {
+    margin-top: 35px;
+    float: left;
+    cursor: pointer;
+}
+
+.container1 .burger {
+    margin-top: 35px;
+    float: right;
+    cursor: pointer;
+}
+
+.container1 h1 {
+    clear: both;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 101px;
+    line-height: 99%;
+    color: #101010;
+    width: 912px;
+    padding-top: 240px;
+    padding-bottom: 156px;
+}
+
+/*Section 2*/
+
+.container2 img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/*Section 3*/
+
+.container3 .text-left hr {
+    width: 34px;
+    height: 1px;
+    background: #101010;
+    margin-top: 77px;
+    margin-bottom: 16px;
+}
+
+.container3 .text-left p {
+    font-family: "DM Sans";
+    font-size: 24px;
+    line-height: 154%;
+    color: #101010;
+}
+
+.container3 .text-left {
+    float: left;
+    width: 296px;
+}
+
+.container3 .text-right p {
+    font-family: "Playfair Display";
+    font-size: 40px;
+    line-height: 121%;
+    color: #101010;
+}
+
+.container3 .text-right {
+    float: right;
+    width: 820px;
+    margin-top: 66px;
+}
+
+.container3 h3 {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 154%;
+    color: #101010;
+    clear: both;
+    padding-top: 128px;
+    padding-bottom: 40px;
+}
+
+.container3 .description {
+    font-family: "DM Sans";
+    font-size: 24px;
+    line-height: 154%;
+    color: #101010;
+}
+
+/* Section 4 */
+
+.container4 {
+    padding-top: 81px;
+    padding-bottom: 60px;
+}
+
+.container4 .card hr {
+    width: 34px;
+    height: 1px;
+    background-color: #101010;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.container4 .card p {
+    font-family: 'DM Sans';
+    font-size: 24px;
+    line-height: 153.7%;
+    color: #101010;
+    width: 296px;
+}
+
+.container4 .card {
+    margin-top: 54px;
+}
+
+.container4 .side_left {
+    float: left;
+}
+
+.container4 .side_right {
+    float: right;
+}
+
+.container4 .clearfix {
+    clear: both;
+}
+
+/*Section 5(footer)*/
+
+footer {
+    background-color: #101010;
+    padding-top: 112px;
+    padding-bottom: 71px;
+}
+
+footer .footer-logo span {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 99%;
+    color: #F2F2F2;
+}
+
+footer .research-block p,
+footer .services-block p,
+footer .legal-block p {
+    font-family: "Playfair Display";
+    font-size: 38px;
+    line-height: 199%;
+    color: #f2f2f2;
+}
+
+footer .research-block ul li a,
+footer .services-block ul li a,
+footer .legal-block ul li a {
+    font-family: "DM Sans";
+    font-size: 21px;
+    line-height: 199%;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+footer .research-block ul,
+footer .services-block ul,
+footer .legal-block ul {
+    list-style-type: none;
+}
+
+footer .footer-logo,
+footer .research-block,
+footer .services-block {
+    float: left;
+}
+
+footer .legal-block {
+    float: right;
+}
+
+footer .research-block,
+footer .services-block,
+footer .legal-block {
+    margin-top: -21px;
+}
+
+footer .research-block {
+    margin-left: 277px;
+}
+
+footer .services-block {
+    margin-left: 98px;
+}
+
+footer .social-links {
+    clear: both;
+    padding-top: 215px;
+}
+
+footer .social-links .social-left {
+    float: left;
+}
+
+footer .social-links .social-right {
+    float: right;
+}
+
+footer .social-links .social-left a {
+    font-family: "DM Sans";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 99%;
+    color: #f2f2f2;
+    text-decoration: none;
+    margin-right: 53px;
+}
+
+footer .social-links .social-right a {
+    margin-left: 32px;
+}

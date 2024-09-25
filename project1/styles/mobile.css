@@ -1,0 +1,146 @@
+@media screen and (max-width: 1300px) {
+    .center {
+        width: 95%;
+    }
+
+    .container3 .text-left,
+    .container3 .text-right {
+        float: none;
+    }
+
+    .container4 .side_left,
+    .container4 .side_right {
+        float: none;
+    }
+
+    .container4 .card {
+        text-align: center;
+    }
+
+    .container4 .card p {
+        width: 100%;
+    }
+
+    .container4 .card hr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer .footer-logo {
+        float: none;
+    }
+
+    footer .research-block {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    footer .services-block {
+        margin-top: 20px;
+        margin-right: 98px;
+    }
+
+    footer .legal-block {
+        margin-top: 20px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container1 h1 {
+        width: 100%;
+    }
+
+    .container3 .text-left,
+    .container3 .text-right {
+        width: 100%;
+    }
+
+    .container4 {
+        padding-top: 30px;
+    }
+
+    .container4 .card .card_img img {
+        max-width: 100%;
+    }
+
+    footer .social-links .social-left {
+        float: none;
+    }
+
+    footer .social-links .social-right {
+        float: none;
+        margin-top: 20px;
+    }
+
+    footer .social-links .social-right a {
+        margin-left: 0;
+        margin-right: 32px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container1 h1 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-size: 72px;
+    }
+
+    footer .services-block {
+        clear: both;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer .legal-block {
+        clear: both;
+    }
+
+    footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    footer .social-links {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container1 h1 {
+        font-size: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .container1 .logo,
+    .container1 .burger {
+        margin-top: 20px;
+    }
+
+    .container3 .text-right p {
+        font-size: 28px;
+    }
+
+    .container3 .text-left hr {
+        margin-top: 60px;
+    }
+
+    .container3 h3 {
+        padding-top: 60px;
+    }
+
+    .container4 .card {
+        margin-top: 30px;
+    }
+
+    .container4 .card p {
+        font-size: 20px;
+    }
+
+    footer .social-links .social-left a,
+    footer .social-links .social-right a {
+        line-height: 50px;
+    }
+}
