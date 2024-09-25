@@ -698,16 +698,36 @@ table {
     padding: 128px 0;
     font-family: 'Poppins';
     display: grid;
-    grid-template-columns: 328px 846px;
-    column-gap: 109px;
+    grid-template-columns: minmax(auto, 328px) minmax(auto, 846px);
+    column-gap: 106px;
+
+    @include onlylarge(1300px) {
+        column-gap: 5%;
+    }
+    @include onlylarge(1024px) {
+        padding: 50px 0;
+        grid-template-columns: 1fr;
+    }
 
     .left-side {
+
+        @include onlylarge(1024px) {
+            margin-bottom: 50px;
+        }
+
         h3 {
             font-weight: 600;
             font-size: 38px;
             line-height: 147%;
             color: #282938;
             margin-bottom: 16px;
+
+            @include onlylarge(1024px) {
+                font-size: 36px;
+            }
+            @include onlylarge(600px) {
+                font-size: 24px;
+            }
         }
 
         p {
@@ -716,16 +736,35 @@ table {
             line-height: 178%;
             color: #282938;
             opacity: 0.87;
+
+            @include onlylarge(600px) {
+                font-size: 16px;
+            }
         }
     }
 
     .right-side {
         .questions-item {
             display: grid;
-            grid-template-columns: 110px 624px 1fr;
+            grid-template-columns: minmax(auto, 110px) minmax(auto, 624px) 1fr;
             border-bottom: 2px solid #ececf1;
             margin-bottom: 32px;
             padding-bottom: 16px;
+
+            @include onlylarge(1300px) {
+                grid-template-columns: 10% minmax(auto, 624px) 1fr;
+            }
+
+            @include onlylarge(1024px) {
+                grid-template-columns: 10% 1fr 5%;
+            }
+            @include onlylarge(768px) {
+                grid-template-columns: 7% 1fr fit-content(20px);
+            }
+            @include onlylarge(600px) {
+                grid-template-columns: 1fr fit-content(20px);
+            }
+
             &:last-child {
                 border-bottom: 0;
             }
@@ -745,6 +784,16 @@ table {
                 font-size: 24px;
                 line-height: 150%;
                 color: #2405f2;
+
+                @include onlylarge(1300px) {
+                    margin-left: 20%;
+                }
+                @include onlylarge(1024px) {
+                    margin-left: 0;
+                }
+                @include onlylarge(600px) {
+                    display: none;
+                }
             }
 
             .question-info {
@@ -754,6 +803,10 @@ table {
                     line-height: 150%;
                     color: #282938;
                     margin-bottom: 16px;
+
+                    @include onlylarge(600px) {
+                        font-size: 20px;
+                    }
                 }
 
                 p {
@@ -763,6 +816,10 @@ table {
                     color:#282938;
                     opacity: 0.87;
                     margin-bottom: 32px;
+
+                    @include onlylarge(600px) {
+                        font-size: 14px;
+                    }
 
                     &.answer-hide {
                         display: none;
