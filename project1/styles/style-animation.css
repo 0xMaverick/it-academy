@@ -1,0 +1,38 @@
+.container4 .card_img {
+    position: relative;
+}
+
+.container4 .pic_caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+    padding: 0;
+}
+
+.container4 .pic_caption h4 {
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    line-height: 120.7%;
+    color: #f2f2f2;
+    padding-top: 165px;
+}
+
+.container4 .card_img:hover .bottom_to_top {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 664px) {
+    .container4 .pic_caption h4 {
+        font-size: clamp(1.5rem, 0.453rem + 5.233vw, 2.625rem);
+        padding-top: clamp(4.375rem, -1.148rem + 27.616vw, 10.313rem);
+    }
+}
