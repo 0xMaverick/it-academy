@@ -758,11 +758,8 @@ footer .footer-bottom p a {
     footer .footer-top>div {
         padding-right: 10px;
     }
-}
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 1024px) {
-	.animated {
+    .animated {
 		/*CSS transitions*/
 		-o-transition-property: none !important;
 		-moz-transition-property: none !important;
