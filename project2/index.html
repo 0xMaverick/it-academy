@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,700;1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -41,7 +42,7 @@
                             <div class="cart">
                                 <img src="./images/cart.svg" alt="cart">
                             </div>
-                            <div class="login">
+                            <div class="login wow animate__animated animate__swing animate__delay-2s">
                                 <a href="#">
                                     <img src="./images/user.svg" alt="user">Sign in
                                 </a>
@@ -309,7 +310,7 @@
                 </div>
                 <div class="fourth-item">
                     <p class="footer-subtitle">Social media</p>
-                    <ul class="soc-links">
+                    <ul class="soc-links wow animate__animated animate__backInRight">
                         <li>
                             <a href="#"><img src="./images/soc1.svg" alt="soc1"></a>
                         </li>
@@ -336,5 +337,20 @@
             </div>
         </footer>
     </div>
+
+    <script src="js/wow.min.js"></script>
+              <script>
+            //   new WOW().init();
+            wow = new WOW(
+                      {
+                      boxClass:     'wow',
+                      animateClass: 'animated',
+                      offset:       0,
+                      mobile:       true,
+                      live:         true
+                    }
+                    )
+                    wow.init();
+              </script>
 </body>
 </html>
