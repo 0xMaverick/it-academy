@@ -1072,7 +1072,14 @@ table {
     }
 }
 
-
+/* Disable Animate.css on tablets and mobilr devices */
+.animated {
+    @include onlylarge(1024px) {
+        transition-property: none !important;
+        transform: none !important;
+        animation: none !important;
+    }
+}
 
 
 @media screen and (max-width: 1300px) {

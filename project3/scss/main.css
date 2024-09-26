@@ -1089,6 +1089,15 @@ table {
   color: #282938;
 }
 
+/* Disable Animate.css on tablets and mobilr devices */
+@media only screen and (max-width: 1024px) {
+  .animated {
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .center {
     width: 95%;
